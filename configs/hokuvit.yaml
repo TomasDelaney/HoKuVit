@@ -1,0 +1,74 @@
+model:
+  model_name: HoKuVit
+  num_classes: 10
+
+architecture:
+  in_channel: 3
+  img_size: 32
+  emb_dim: [48, 64, 96]
+  n_layers: [1, 2, 6]
+  num_heads: [1, 2, 3]
+  mlp_expansion: 4
+  kernel_size: [3, 3, 3]
+  stride: [2, 2, 1]
+  padding: [1, 1, 1]
+  attn_kernel_size: 3
+  stride_q: [1, 1, 1]
+  stride_kv: [2, 2, 2]
+  padding_q: [1, 1, 1]
+  padding_kv: [1, 1, 1]
+  capture_enabled: false
+
+data:
+  data_dir: ./data
+  batch_size: 128
+  num_workers: 4
+  cifar_mean: [0.4914, 0.4822, 0.4465]
+  cifar_std: [0.2470, 0.2435, 0.2616]
+  random_crop_size: 32
+  random_crop_padding: 4
+
+training:
+  num_epochs: 100
+  learning_rate: 1.0e-3
+  seed: 42
+
+regularization:
+  drop_p: 0.0
+  attn_drop_p: 0.0
+  drop_path_p: 0.1
+
+mixup:
+  mixup: 0.8
+  cutmix: 1.0
+  cutmix_minmax: null
+  mixup_prob: 1.0
+  mixup_switch_prob: 0.5
+  mixup_mode: batch
+  smoothing: 0.1
+
+lr_schedule:
+  warmup_lr: 1.0e-8
+  warmup_epochs: 5
+
+weight_decay:
+  weight_decay: 0.005
+  kuramoto_weight_decay: 0.02
+  hopfield_l1_lambda: 1.0e-4
+
+hopfield:
+  hopfield_update_steps: 5
+  hopfield_zoneout_prob: 0.3
+
+onn:
+  ONN_update_steps: 14
+  ONN_min_frequency: 1.75
+  ONN_mean_init_frequency: 3.0
+  ONN_dt: 0.125
+
+optimization:
+  validate_every: 1
+  log_interval: 50
+  compute_grad_norms: false
+  gradient_accumulation_steps: 2
+  compile: false
