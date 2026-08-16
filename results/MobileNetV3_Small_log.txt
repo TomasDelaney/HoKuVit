@@ -1,0 +1,645 @@
+Using device: cuda
+
+================================================================================
+CREATING MOBILENETV3-SMALL MODEL
+================================================================================
+
+=== MODEL CONFIGURATION ===
+The model has: 1,528,106 trainable parameters
+
+================================================================================
+CUDA MEMORY SUMMARY
+================================================================================
+Allocated:     0.01 GB
+Reserved:      0.03 GB
+Max Allocated: 0.01 GB
+Free:          0.02 GB (reserved but not allocated)
+
+Total tensor size: 0.01 GB
+Number of large tensors (>10MB): 0
+================================================================================
+
+
+================================================================================
+STARTING TRAINING
+  Total epochs: 100
+  Batch size: 128
+  Learning rate: 0.001000
+  Weight decay: 0.0001
+  Validate every: 1 epochs
+  Log interval: 50 batches
+  Gradient accumulation: 1 steps
+  Mixup alpha: 0.8
+  Cutmix alpha: 1.0
+  Label smoothing: 0.1
+================================================================================
+
+
+Epoch [1/100]
+  Train Loss: 2.3008
+  Val Loss: 2.3023
+  Val Acc: 10.00%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_10.00.pkl
+
+Epoch [2/100]
+  Train Loss: 2.1038
+  Val Loss: 1.7094
+  Val Acc: 38.91%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_38.91.pkl
+
+Epoch [3/100]
+  Train Loss: 1.9952
+  Val Loss: 1.5156
+  Val Acc: 45.29%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_45.29.pkl
+
+Epoch [4/100]
+  Train Loss: 1.9508
+  Val Loss: 1.4813
+  Val Acc: 49.99%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_49.99.pkl
+
+Epoch [5/100]
+  Train Loss: 1.9103
+  Val Loss: 1.4171
+  Val Acc: 53.49%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_53.49.pkl
+
+Epoch [6/100]
+  Train Loss: 1.8723
+  Val Loss: 1.4286
+  Val Acc: 52.37%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_52.37.pkl
+
+Epoch [7/100]
+  Train Loss: 1.8217
+  Val Loss: 1.2528
+  Val Acc: 61.44%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_61.44.pkl
+
+Epoch [8/100]
+  Train Loss: 1.7729
+  Val Loss: 1.1587
+  Val Acc: 63.79%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_63.79.pkl
+
+Epoch [9/100]
+  Train Loss: 1.7577
+  Val Loss: 1.1630
+  Val Acc: 62.57%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_62.57.pkl
+
+Epoch [10/100]
+  Train Loss: 1.7262
+  Val Loss: 1.1111
+  Val Acc: 64.98%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_64.98.pkl
+
+Epoch [11/100]
+  Train Loss: 1.7024
+  Val Loss: 1.0371
+  Val Acc: 69.20%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_69.20.pkl
+
+Epoch [12/100]
+  Train Loss: 1.6702
+  Val Loss: 1.0520
+  Val Acc: 68.88%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_68.88.pkl
+
+Epoch [13/100]
+  Train Loss: 1.6609
+  Val Loss: 1.0302
+  Val Acc: 69.99%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_69.99.pkl
+
+Epoch [14/100]
+  Train Loss: 1.6546
+  Val Loss: 0.9810
+  Val Acc: 71.34%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_71.34.pkl
+
+Epoch [15/100]
+  Train Loss: 1.6362
+  Val Loss: 0.9426
+  Val Acc: 72.66%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_72.66.pkl
+
+Epoch [16/100]
+  Train Loss: 1.6370
+  Val Loss: 0.9748
+  Val Acc: 72.32%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_72.32.pkl
+
+Epoch [17/100]
+  Train Loss: 1.6391
+  Val Loss: 1.0304
+  Val Acc: 68.79%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_68.79.pkl
+
+Epoch [18/100]
+  Train Loss: 1.6027
+  Val Loss: 0.9088
+  Val Acc: 74.36%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_74.36.pkl
+
+Epoch [19/100]
+  Train Loss: 1.6248
+  Val Loss: 0.9352
+  Val Acc: 73.39%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_73.39.pkl
+
+Epoch [20/100]
+  Train Loss: 1.5867
+  Val Loss: 0.8885
+  Val Acc: 74.67%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_74.67.pkl
+
+Epoch [21/100]
+  Train Loss: 1.6173
+  Val Loss: 0.8714
+  Val Acc: 75.62%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_75.62.pkl
+
+Epoch [22/100]
+  Train Loss: 1.5592
+  Val Loss: 0.8710
+  Val Acc: 75.82%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_75.82.pkl
+
+Epoch [23/100]
+  Train Loss: 1.5802
+  Val Loss: 0.9107
+  Val Acc: 75.42%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_75.42.pkl
+
+Epoch [24/100]
+  Train Loss: 1.5708
+  Val Loss: 0.8757
+  Val Acc: 76.75%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_76.75.pkl
+
+Epoch [25/100]
+  Train Loss: 1.5523
+  Val Loss: 0.8731
+  Val Acc: 77.17%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_77.17.pkl
+
+Epoch [26/100]
+  Train Loss: 1.5738
+  Val Loss: 0.8514
+  Val Acc: 77.44%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_77.44.pkl
+
+Epoch [27/100]
+  Train Loss: 1.5522
+  Val Loss: 0.8839
+  Val Acc: 75.92%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_75.92.pkl
+
+Epoch [28/100]
+  Train Loss: 1.5597
+  Val Loss: 0.8618
+  Val Acc: 76.78%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_76.78.pkl
+
+Epoch [29/100]
+  Train Loss: 1.5526
+  Val Loss: 0.8295
+  Val Acc: 78.51%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_78.51.pkl
+
+Epoch [30/100]
+  Train Loss: 1.5784
+  Val Loss: 0.8584
+  Val Acc: 76.76%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_76.76.pkl
+
+Epoch [31/100]
+  Train Loss: 1.5324
+  Val Loss: 0.8135
+  Val Acc: 78.99%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_78.99.pkl
+
+Epoch [32/100]
+  Train Loss: 1.5371
+  Val Loss: 0.8087
+  Val Acc: 79.21%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_79.21.pkl
+
+Epoch [33/100]
+  Train Loss: 1.5335
+  Val Loss: 0.8548
+  Val Acc: 79.02%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_79.02.pkl
+
+Epoch [34/100]
+  Train Loss: 1.5294
+  Val Loss: 0.8508
+  Val Acc: 77.21%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_77.21.pkl
+
+Epoch [35/100]
+  Train Loss: 1.5059
+  Val Loss: 0.7920
+  Val Acc: 79.59%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_79.59.pkl
+
+Epoch [36/100]
+  Train Loss: 1.5166
+  Val Loss: 0.7926
+  Val Acc: 80.24%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_80.24.pkl
+
+Epoch [37/100]
+  Train Loss: 1.5090
+  Val Loss: 0.7790
+  Val Acc: 80.07%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_80.07.pkl
+
+Epoch [38/100]
+  Train Loss: 1.5155
+  Val Loss: 0.7826
+  Val Acc: 79.79%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_79.79.pkl
+
+Epoch [39/100]
+  Train Loss: 1.4910
+  Val Loss: 0.7808
+  Val Acc: 80.37%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_80.37.pkl
+
+Epoch [40/100]
+  Train Loss: 1.4929
+  Val Loss: 0.7618
+  Val Acc: 80.97%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_80.97.pkl
+
+Epoch [41/100]
+  Train Loss: 1.5119
+  Val Loss: 0.7847
+  Val Acc: 80.54%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_80.54.pkl
+
+Epoch [42/100]
+  Train Loss: 1.4941
+  Val Loss: 0.7691
+  Val Acc: 81.08%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.08.pkl
+
+Epoch [43/100]
+  Train Loss: 1.4706
+  Val Loss: 0.7617
+  Val Acc: 81.03%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.03.pkl
+
+Epoch [44/100]
+  Train Loss: 1.5050
+  Val Loss: 0.7733
+  Val Acc: 80.97%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_80.97.pkl
+
+Epoch [45/100]
+  Train Loss: 1.5220
+  Val Loss: 0.7661
+  Val Acc: 81.66%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.66.pkl
+
+Epoch [46/100]
+  Train Loss: 1.4918
+  Val Loss: 0.7644
+  Val Acc: 81.30%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.30.pkl
+
+Epoch [47/100]
+  Train Loss: 1.4764
+  Val Loss: 0.7491
+  Val Acc: 81.57%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.57.pkl
+
+Epoch [48/100]
+  Train Loss: 1.4634
+  Val Loss: 0.7306
+  Val Acc: 81.77%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.77.pkl
+
+Epoch [49/100]
+  Train Loss: 1.4803
+  Val Loss: 0.7411
+  Val Acc: 81.28%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.28.pkl
+
+Epoch [50/100]
+  Train Loss: 1.4835
+  Val Loss: 0.7409
+  Val Acc: 81.57%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.57.pkl
+
+Epoch [51/100]
+  Train Loss: 1.4556
+  Val Loss: 0.7369
+  Val Acc: 81.77%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_81.77.pkl
+
+Epoch [52/100]
+  Train Loss: 1.4546
+  Val Loss: 0.7226
+  Val Acc: 82.64%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_82.64.pkl
+
+Epoch [53/100]
+  Train Loss: 1.4632
+  Val Loss: 0.7112
+  Val Acc: 83.08%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.08.pkl
+
+Epoch [54/100]
+  Train Loss: 1.4578
+  Val Loss: 0.7099
+  Val Acc: 82.58%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_82.58.pkl
+
+Epoch [55/100]
+  Train Loss: 1.4404
+  Val Loss: 0.7088
+  Val Acc: 82.52%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_82.52.pkl
+
+Epoch [56/100]
+  Train Loss: 1.4616
+  Val Loss: 0.7065
+  Val Acc: 82.87%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_82.87.pkl
+
+Epoch [57/100]
+  Train Loss: 1.4700
+  Val Loss: 0.7378
+  Val Acc: 82.66%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_82.66.pkl
+
+Epoch [58/100]
+  Train Loss: 1.4570
+  Val Loss: 0.7163
+  Val Acc: 82.67%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_82.67.pkl
+
+Epoch [59/100]
+  Train Loss: 1.4749
+  Val Loss: 0.7123
+  Val Acc: 83.15%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.15.pkl
+
+Epoch [60/100]
+  Train Loss: 1.4540
+  Val Loss: 0.7065
+  Val Acc: 83.30%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.30.pkl
+
+Epoch [61/100]
+  Train Loss: 1.4537
+  Val Loss: 0.7147
+  Val Acc: 83.21%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.21.pkl
+
+Epoch [62/100]
+  Train Loss: 1.4559
+  Val Loss: 0.7117
+  Val Acc: 83.15%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.15.pkl
+
+Epoch [63/100]
+  Train Loss: 1.4421
+  Val Loss: 0.7080
+  Val Acc: 83.39%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.39.pkl
+
+Epoch [64/100]
+  Train Loss: 1.4629
+  Val Loss: 0.7035
+  Val Acc: 83.42%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.42.pkl
+
+Epoch [65/100]
+  Train Loss: 1.4411
+  Val Loss: 0.6964
+  Val Acc: 83.39%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.39.pkl
+
+Epoch [66/100]
+  Train Loss: 1.4486
+  Val Loss: 0.6884
+  Val Acc: 83.69%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.69.pkl
+
+Epoch [67/100]
+  Train Loss: 1.4471
+  Val Loss: 0.7009
+  Val Acc: 83.57%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.57.pkl
+
+Epoch [68/100]
+  Train Loss: 1.4339
+  Val Loss: 0.6994
+  Val Acc: 83.58%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.58.pkl
+
+Epoch [69/100]
+  Train Loss: 1.4274
+  Val Loss: 0.6985
+  Val Acc: 83.65%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.65.pkl
+
+Epoch [70/100]
+  Train Loss: 1.4414
+  Val Loss: 0.6913
+  Val Acc: 83.94%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.94.pkl
+
+Epoch [71/100]
+  Train Loss: 1.4495
+  Val Loss: 0.7003
+  Val Acc: 84.07%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.07.pkl
+
+Epoch [72/100]
+  Train Loss: 1.4444
+  Val Loss: 0.6933
+  Val Acc: 83.79%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.79.pkl
+
+Epoch [73/100]
+  Train Loss: 1.4146
+  Val Loss: 0.6773
+  Val Acc: 84.29%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.29.pkl
+
+Epoch [74/100]
+  Train Loss: 1.4135
+  Val Loss: 0.6868
+  Val Acc: 83.94%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_83.94.pkl
+
+Epoch [75/100]
+  Train Loss: 1.4426
+  Val Loss: 0.6850
+  Val Acc: 84.18%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.18.pkl
+
+Epoch [76/100]
+  Train Loss: 1.3971
+  Val Loss: 0.6601
+  Val Acc: 84.31%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.31.pkl
+
+Epoch [77/100]
+  Train Loss: 1.4121
+  Val Loss: 0.6804
+  Val Acc: 84.18%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.18.pkl
+
+Epoch [78/100]
+  Train Loss: 1.4256
+  Val Loss: 0.6843
+  Val Acc: 84.18%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.18.pkl
+
+Epoch [79/100]
+  Train Loss: 1.4067
+  Val Loss: 0.6683
+  Val Acc: 84.31%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.31.pkl
+
+Epoch [80/100]
+  Train Loss: 1.4059
+  Val Loss: 0.6759
+  Val Acc: 84.10%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.10.pkl
+
+Epoch [81/100]
+  Train Loss: 1.4490
+  Val Loss: 0.6961
+  Val Acc: 84.05%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.05.pkl
+
+Epoch [82/100]
+  Train Loss: 1.4193
+  Val Loss: 0.6800
+  Val Acc: 84.56%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.56.pkl
+
+Epoch [83/100]
+  Train Loss: 1.4394
+  Val Loss: 0.6830
+  Val Acc: 84.36%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.36.pkl
+
+Epoch [84/100]
+  Train Loss: 1.4153
+  Val Loss: 0.6757
+  Val Acc: 84.44%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.44.pkl
+
+Epoch [85/100]
+  Train Loss: 1.4017
+  Val Loss: 0.6664
+  Val Acc: 84.57%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.57.pkl
+
+Epoch [86/100]
+  Train Loss: 1.3950
+  Val Loss: 0.6630
+  Val Acc: 84.53%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.53.pkl
+
+Epoch [87/100]
+  Train Loss: 1.3942
+  Val Loss: 0.6557
+  Val Acc: 84.59%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.59.pkl
+
+Epoch [88/100]
+  Train Loss: 1.4030
+  Val Loss: 0.6727
+  Val Acc: 84.54%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.54.pkl
+
+Epoch [89/100]
+  Train Loss: 1.3943
+  Val Loss: 0.6674
+  Val Acc: 84.50%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.50.pkl
+
+Epoch [90/100]
+  Train Loss: 1.4275
+  Val Loss: 0.6757
+  Val Acc: 84.40%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.40.pkl
+
+Epoch [91/100]
+  Train Loss: 1.3706
+  Val Loss: 0.6611
+  Val Acc: 84.63%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.63.pkl
+
+Epoch [92/100]
+  Train Loss: 1.4368
+  Val Loss: 0.6791
+  Val Acc: 84.54%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.54.pkl
+
+Epoch [93/100]
+  Train Loss: 1.4235
+  Val Loss: 0.6659
+  Val Acc: 84.64%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.64.pkl
+
+Epoch [94/100]
+  Train Loss: 1.4297
+  Val Loss: 0.6777
+  Val Acc: 84.65%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.65.pkl
+
+Epoch [95/100]
+  Train Loss: 1.4134
+  Val Loss: 0.6672
+  Val Acc: 84.66%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.66.pkl
+
+Epoch [96/100]
+  Train Loss: 1.3702
+  Val Loss: 0.6538
+  Val Acc: 84.80%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.80.pkl
+
+Epoch [97/100]
+  Train Loss: 1.4240
+  Val Loss: 0.6695
+  Val Acc: 84.66%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.66.pkl
+
+Epoch [98/100]
+  Train Loss: 1.4059
+  Val Loss: 0.6645
+  Val Acc: 84.61%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.61.pkl
+
+Epoch [99/100]
+  Train Loss: 1.4233
+  Val Loss: 0.6720
+  Val Acc: 84.62%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.62.pkl
+
+Epoch [100/100]
+  Train Loss: 1.4326
+  Val Loss: 0.6882
+  Val Acc: 84.52%
+Saved new best distilled model: checkpoints/MobileNetV3_Small_84.52.pkl
+Saved training plot to plots/MobileNetV3_Small_training.png
+
+================================================================================
+TRAINING COMPLETE
+Total training time: 13.72 minutes
+================================================================================
+
+Final Results:
+Best Validation Accuracy: 84.80%
