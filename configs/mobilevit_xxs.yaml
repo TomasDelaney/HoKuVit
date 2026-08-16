@@ -1,0 +1,26 @@
+model:
+  model_name: mobilevit_xxs
+  timm_name: mobilevit_xxs
+  num_classes: 10
+
+data:
+  data_dir: ./data
+  batch_size: 128
+  num_workers: 4
+  cifar_mean: [0.4914, 0.4822, 0.4465]
+  cifar_std: [0.2470, 0.2435, 0.2616]
+  random_crop_size: 32
+  random_crop_padding: 4
+
+training:
+  num_epochs: 100
+  learning_rate: 0.001
+  weight_decay: 0.05
+  smoothing: 0.1
+  seed: 42
+
+optimization:
+  log_interval: 50
+  compute_grad_norms: false
+  gradient_accumulation_steps: 1
+  compile: false
